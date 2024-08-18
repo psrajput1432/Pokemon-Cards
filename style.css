@@ -1,0 +1,35 @@
+*{
+   margin:0%;
+   padding:0%;
+}
+
+html,body{
+   height: 100%;
+   width:  100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 123px;
+    width: 100px;
+    border-radius: 3px;
+    border: solid 1px black;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card img{
+    width: 90%;
+}
